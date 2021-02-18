@@ -1,0 +1,92 @@
+
+.how-it-works-wrapper{
+  width: 1413px;
+  margin-bottom: 40px;
+}
+
+.how-it-work{
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 157%;
+  color: #424242;
+}
+
+.explanation-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.explanation-title-wrapper{
+  width: 584px;
+}
+.explanation-title{
+  font-family: "Playfair Display", "Lato", "Arial", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 157%;
+  color: #01996D;
+}
+
+.explanation-text-wrapper{
+  width: 671px;
+}
+
+.explanation-text{
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  line-height: 150%;
+  color: #424242;
+}
+
+
+
+.registration-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 52px;
+}
+
+.steps{
+  display: flex;
+  flex-direction: column;
+}
+
+.writedown{
+  margin-top: 270px;
+}
+
+.steps::before{
+  content: "";
+  width: 390px;
+  height: 225px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.steps-text{
+  width: 382px;
+  margin: 0;
+  margin-bottom: 60px;
+  padding: 0;
+  line-height: 150%;
+  color: #424242;
+}
+
+.personalize::before{
+  background-image: url(../img/numbers/1.png);
+}
+.write::before{
+  background-image: url(../img/numbers/2.png);
+}
+.alivio::before{
+  background-image: url(../img/numbers/3.png);
+}

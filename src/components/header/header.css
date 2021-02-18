@@ -1,0 +1,170 @@
+
+html{
+  box-sizing: border-box;
+  font-family: "Lato", "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  overflow-x: hidden;
+}
+
+*,
+*::after,
+*::before{
+  box-sizing: inherit;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.header{
+  background-color: #fff;
+}
+
+.container{
+  max-width: 1540px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header-top{
+  height: 85px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+
+.header-top.night {
+  background-color: #000;
+  color: #fff;
+}
+
+.logo-img{
+  padding: 0;
+  margin-right: 172px;
+}
+
+.header-list{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.header-item{
+  padding: 0;
+  margin: 0;
+  margin-right: 72px;
+}
+
+.header-item:last-child{
+  margin-right: 283px;
+}
+
+.header-link{
+  text-decoration: none;
+  line-height: 24px;
+  color: #292929;
+}
+
+.header-link.night {
+  color: #fff;
+}
+
+.header-link.night-mode {
+  color: #fff;
+}
+
+.sign-link{
+  margin-right: 85px;
+  text-decoration: none;
+  line-height: 24px;
+  color: #292929;
+}
+
+.sign-link.night {
+  color: #fff;
+}
+
+.trial-link{
+  padding: 13px 50px;
+  background-color: #01996D;
+  border: 1px solid #01996D;
+  border-radius: 4px;
+  text-decoration: none;
+  line-height: 24px;
+  color: #fff;
+  transform: scale(1);
+}
+
+.trial-link:active {
+  transform: scale(0.95);
+}
+
+.trial-link.night {
+  background-color: rgb(109, 129, 120);
+}
+
+.section-aware{
+  width: 1920px;
+  height: 895px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 170px;
+  background-image: url(../img/aware-img/bg-aware-img.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.aware-heading{
+  font-family: "Playfair Display", "Lato", "Arial", sans-serif;
+  width: 440px;
+  margin: 0;
+  margin-bottom: 35px;
+  padding-top: 175px;
+  font-weight: bold;
+  font-size: 65px;
+  line-height: 74px;
+  color: #01996D;
+}
+
+.aware-heading.dark {
+  color: #000;
+}
+
+.aware-text{
+  width: 420px;
+  margin: 0;
+  margin-bottom: 38px;
+}
+
+.aware-text.dark {
+  color: #01996D;
+}
+
+.aware-link{
+  padding: 20px 50px;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #fff;
+  border: 1px solid #01996D;
+  background-color: #01996D;
+  transform: scale(1);
+}
+
+.aware-link:active {
+  transform: scale(0.96);
+}
+
+
